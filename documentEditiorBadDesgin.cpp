@@ -58,6 +58,7 @@ int main() {
 
     editor.addImage("picture.jpg");
     editor.addImage("diagram.png");
+    editor.addImage("profile.png");
 
     cout << "Rendered Document:" << endl;
     cout << editor.renderDocument() << endl;
